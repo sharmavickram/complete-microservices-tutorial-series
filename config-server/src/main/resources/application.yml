@@ -1,0 +1,12 @@
+server:
+  port: 28085
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sharmavickram/microservices-config.git
+          clone-on-start: true
